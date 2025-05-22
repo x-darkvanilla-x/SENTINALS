@@ -37,7 +37,7 @@ const TeamCards: React.FC = () => {
     {
       name: 'BEAST',
       subtitle: 'Duelist',
-      imagePath: '/pubg-mobile.jpg', // Replace with actual team member images
+      imagePath: '/vrushab.jpg', // Replace with actual team member images
     },
     {
       name: 'FRAGGOD',
@@ -47,7 +47,7 @@ const TeamCards: React.FC = () => {
     {
       name: 'PHANTOM',
       subtitle: 'Assaulter',
-      imagePath: '/racing-game.jpg', // Replace with actual team member images
+      imagePath: '/vrushal.jpg', // Replace with actual team member images
     }
   ];
 
