@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
 import { FaPlay } from 'react-icons/fa';
 
@@ -8,7 +9,7 @@ const VideoSection = () => {
   
   // Replace these with your actual video details
   const thumbnailUrl = '/scrims-thumbnail.jpg';
-  const videoUrl = 'https://www.youtube.com/embed/dQw4w9WgXcQ'; // Replace with your video URL
+  const videoUrl = 'https://www.youtube.com/watch?v=Yozxh8e-E4k'; // Replace with your video URL
 
   return (
     <div className="relative aspect-video">
@@ -18,7 +19,7 @@ const VideoSection = () => {
           className="relative cursor-pointer group"
           onClick={() => setIsPlaying(true)}
         >
-          <img 
+          <Image 
             src={thumbnailUrl} 
             alt="Video thumbnail" 
             className="w-full h-full object-cover rounded-lg"
