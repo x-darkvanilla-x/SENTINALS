@@ -3,6 +3,7 @@ import GameCards from "@/components/GameCards";
 import TeamCards from "@/components/TeamCards";
 import BestMatches from "@/components/BestMatches";
 import VideoSection from "@/components/VideoSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <section className="bg-[#005792] py-16 px-6 md:px-16">
         <VideoSection />
       </section>
+      <Footer />
     </div>
   );
 }
