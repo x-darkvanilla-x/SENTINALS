@@ -19,10 +19,10 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ name, subtitle, imagePa
         {/* Team member info - visible on hover */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <div className="text-center transition-all duration-300 transform group-hover:scale-110">
-            <h3 className="text-white text-2xl opacity-0 group-hover:opacity-100 md:text-2xl font-bold z-10">
+            <h3 className="text-white text-2xl opacity-100 md:opacity-0 group-hover:opacity-100 md:text-2xl font-bold z-10">
               {name}
             </h3>
-            <p className="text-white text-lg md:text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <p className="text-white text-lg md:text-xl opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               {subtitle}
             </p>
           </div>

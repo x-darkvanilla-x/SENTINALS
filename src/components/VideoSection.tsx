@@ -19,10 +19,12 @@ const VideoSection = () => {
           className="relative cursor-pointer group"
           onClick={() => setIsPlaying(true)}
         >
-          <Image 
+          <Image
+            width={1280}
+            height={720}
             src={thumbnailUrl} 
             alt="Video thumbnail" 
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 flex items-center justify-center group-hover:bg-black/40 transition-colors rounded-lg">
             <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center bg-white/90 rounded-full group-hover:bg-white transition-colors">
